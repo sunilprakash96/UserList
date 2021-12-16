@@ -50,7 +50,7 @@ const Login = (props) => {
           style={{ backgroundColor: "white", width: "70%", borderRadius: 20, color: "black", paddingLeft: 30, borderColor: "black", borderWidth: 2 }}
           placeholder="Password"
           placeholderTextColor={"#ccc"}
-          editable
+          secureTextEntry={true}
           onChangeText={(text) => setUser({ ...user, password: text, showpasswordError: false})}
           value={user.password}
         />

@@ -17,9 +17,9 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import Login from './login.screen';
-import User from './user.screen';
-import UserList from './userlist.screen';
+import Login from './screens/login.screen';
+import User from './screens/user.screen';
+import UserList from './screens/userlist.screen';
 
 const Stack = createStackNavigator();
 

@@ -13,7 +13,7 @@ const UserList = (props) => {
     <View style={styles.container}>
       <Text style={{ fontSize: 30, color: "black", paddingBottom: 20 }}>UserList</Text>
       <View style={{ alignItems: "flex-start", width: "100%", paddingLeft: 25}}>
-      <View style={{ height: "70%", width: "100%" }}>
+      <View style={{ height: "90%", width: "100%" }}>
         <FlatList
           data={selectedData && selectedData.length !== 0 ? selectedData: []}
           showsVerticalScrollIndicator={false}

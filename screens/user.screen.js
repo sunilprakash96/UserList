@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { View, Text, StyleSheet, TextInput, FlatList } from "react-native";
 import CheckBox from '@react-native-community/checkbox';
 import { TouchableOpacity } from "react-native-gesture-handler";
-import { data } from "./constants";
+import { data } from "../constants";
 
 const User = (props) => {
   const [user, setUser] = useState({
